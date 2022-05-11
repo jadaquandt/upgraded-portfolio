@@ -3,6 +3,12 @@
 }
 
 
+.social-icons {
+  display: inline-block !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .footer {
   background-color: rgb(10, 4, 22);
   color: white;
