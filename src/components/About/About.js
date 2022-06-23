@@ -10,8 +10,8 @@ export default function About() {
                     who found her way to Software Engineering in 2020. I have a rescue dog
                     named Fancy and a musician husband named Josh.
                 </p>
-                <div class="family-photo">
-                    <img id="family" class="d-flex" src="/Portfolio-Files/jada_family.jpg" alt="" />
+                <div className="family-photo">
+                    <img id="family" className="d-flex" src="/Portfolio-Files/jada_family.jpg" alt="" />
                 </div>
             </div>
         </div>

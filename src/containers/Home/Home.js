@@ -4,12 +4,12 @@ import Header from '../../components/Header/Header';
 
 function Home() {
     return (
-      <div className="App">
-        <Header />
-        <About />
-        <Footer />
-      </div>
+        <div className="App">
+            <Header />
+            <About />
+            <Footer />
+        </div>
     );
-  }
-  
-  export default Home;
+}
+
+export default Home;
