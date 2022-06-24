@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+
 .social-icons {
   display: inline-block !important;
   padding-right: 15px;
@@ -39,4 +47,43 @@
 
 .blockquote-footer {
   color: #a588c0 !important;
+}
+
+#skills-section {
+  margin-bottom: 20px;
+}
+
+.skills {
+  font-size: 60px;
+  color: black;
+}
+
+.employer-link {
+  color: rgb(59, 56, 56);
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+.custom-ul {
+  list-style: none;
+  padding-left: 0px;
+  text-align: left;
+  font-family: "JetBrains Mono", monospace;
+}
+
+#timeline {
+  display: flex;
+  justify-content: center;
+}
+.family-photo{
+  display: flex;
+  justify-content: center;
+}
+
+#family {
+  width: 100vw;
+  height: 50vh;
+  max-width: 500px;
+  height: auto;
+  margin: 40px;
 }
