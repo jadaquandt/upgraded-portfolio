@@ -11,7 +11,7 @@ export default function About() {
                     named Fancy and a musician husband named Josh.
                 </p>
                 <div className="family-photo">
-                    <img id="family" className="d-flex" src="/Portfolio-Files/jada_family.jpg" alt="" />
+                    <img id="family" className="d-flex" src="/Portfolio-Files/jada_family.JPG" alt="" />
                 </div>
             </div>
         </div>
