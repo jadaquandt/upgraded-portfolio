@@ -1,12 +1,12 @@
 import React from "react";
-import './App.css';
+import './App.scss';
 import {
     Route,
     Routes,
     Navigate
 } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from './components/NavigationBar';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./containers/Home/Home"
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
