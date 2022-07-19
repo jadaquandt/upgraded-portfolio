@@ -19,8 +19,8 @@ export default function Header() {
                 <div className="name-object">&#125;</div>
             </div>
             <div className="d-flex align-items-center">
-                <Button to="/projects" variant="contained">Projects</Button>
-                <Button to="/about" className="m-1" variant="contained">About</Button>
+                <Button href="/projects" variant="contained">Projects</Button>
+                <Button href="/about" className="m-1" variant="contained">About</Button>
             </div>
             <div id="contact-container" class="text-center mt-3">
                 {/* <hr /> */}
