@@ -9,7 +9,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col className="footer-copywright">
-         <p>Portfolio created using React by Jada Quandt</p>
+          <p>Portfolio by Jada Quandt</p>
         </Col>
         <Col className="footer-body">
           <ul className="footer-icons">
@@ -17,7 +17,7 @@ function Footer() {
               <a
                 href="https://github.com/jadaquandt"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <GitHubIcon />
@@ -27,7 +27,7 @@ function Footer() {
               <a
                 href="https://twitter.com/jadaquandt"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <TwitterIcon />
@@ -37,7 +37,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/jadaquandt/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <LinkedInIcon />
@@ -47,7 +47,7 @@ function Footer() {
               <a
                 href="mailto:jadaquandt@gmail.com"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <MailOutlineIcon />

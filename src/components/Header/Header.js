@@ -23,7 +23,6 @@ export default function Header() {
                 <Button href="/about" className="m-1" variant="contained">About</Button>
             </div>
             <div id="contact-container" class="text-center mt-3">
-                {/* <hr /> */}
                 <a className="m-1" href="mailto:jadaquandt@gmail.com"><MailOutlineIcon/></a>
                 <a className="m-1" href="https://github.com/jadaquandt" rel="noreferrer" target="_blank"><GitHubIcon /></a>
                 <a className="m-1" href="https://www.linkedin.com/in/jadaquandt/" rel="noreferrer" target="_blank"><LinkedInIcon/></a>

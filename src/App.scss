@@ -49,39 +49,6 @@ h3 {
   padding-left: 15px;
 }
 
-.footer {
-  background-color: rgb(10, 4, 22);
-  color: white;
-  bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
-}
-.footer-body {
-  text-align: center !important;
-}
-
-@media (max-width: 767px) {
-  .footer-body {
-    text-align: center !important;
-  }
-}
-
-.footer h3 {
-  font-size: 1em;
-  color: white !important;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-}
-.footer-icons {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-  padding: 0 !important;
-}
-
-.blockquote-footer {
-  color: #a588c0 !important;
-}
-
 #skills-section {
   margin-bottom: 20px;
 }
@@ -138,4 +105,24 @@ h3 {
 .intro-container{
   margin-top: 5em;
   margin-bottom: 5em;
+}
+
+
+.navbar-custom {
+    background-color: lightgreen;
+}
+
+.footer {
+  background-color: rgb(10, 4, 22);
+  color: white;
+  bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important ;
+  position: fixed;
+}
+
+.footer-icons {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  padding: 0 !important;
 }
