@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap'
 
 export default function NavigationBar() {
     return (
-        <Navbar bg="primary" expand="lg">
+        <Navbar expand="lg" className='navbar-custom'>
             <Container>
                 <Navbar.Brand href="/">Jada Quandt</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
