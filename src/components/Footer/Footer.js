@@ -9,8 +9,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col className="footer-copywright">
-          <a target="_blank" href="https://icons8.com/icon/42658/darth-vader" rel="noreferrer">Darth Vader,</a> 
-            <a target="_blank" href="https://icons8.com/icon/QqhR3q5pMyCZ/jedi" rel="noreferrer">Jedi</a> icons by <a target="_blank" href="https://icons8.com" rel="noreferrer">Icons8</a>
+          <p>Portfolio by Jada Quandt</p>
         </Col>
         <Col className="footer-body">
           <ul className="footer-icons">

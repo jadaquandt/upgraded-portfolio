@@ -16,16 +16,15 @@ import { ThemeProvider } from "styled-components";
 import { useDarkMode } from './useDarkMode';
 import { lightTheme, darkTheme } from './theme';
 import { GlobalStyles } from './global';
+import Button from '@mui/material/Button';
 
 
 function App() {
   const [theme, setTheme] = useDarkMode();
 
   const toggleTheme = () => {
-    // if the theme is not light, then set it to dark
     if (theme === 'light') {
       setTheme('dark');
-    // otherwise, it should be light
     } else {
       setTheme('light');
     }
@@ -35,7 +34,7 @@ function App() {
         <div className="App">
         <GlobalStyles />
             <NavigationBar />
-            <button onClick={toggleTheme}>Toggle Dark Mode</button>
+            <Button onClick={toggleTheme}>Toggle Dark Mode</Button>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="about" element={<About />} />
